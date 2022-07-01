@@ -40,11 +40,3 @@ function getSchedule(scheduleTarget) {
 }
 
 module.exports = getSchedule;
-
-// 'Tuesday': {
-//   'officeHour': 'Open from 8am until 6pm',
-//   'exhibition': [ 'lions', 'tigers', 'bears', 'penguins', 'elephants', 'giraffes' ],
-// },
-
-// hours: {
-//   Tuesday: { open: 8, close: 6 },

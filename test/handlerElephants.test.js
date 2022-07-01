@@ -1,4 +1,4 @@
-const handlerElephants = require("../src/handlerElephants");
+const handlerElephants = require('../src/handlerElephants');
 
 describe('Testes da função HandlerElephants', () => {
   it('sem parâmetros, retorna undefined.', () => {
