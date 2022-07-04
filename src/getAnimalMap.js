@@ -46,10 +46,10 @@ function getAnimalMap(options) {
     return getFullAnimalMap();
   }
   const { includeNames, sex, sorted } = options;
-  if (includeNames === true) { // se pede com os nomes dos animais,retorna o mapa dos nomes de animais de cada especies por localização
+  if (includeNames === true) { // se são solicitado os nomes de cada um dos animais,retorna o mapa dos nomes de animais de cada especies por localização
     return getFullAnimalMapWithNames(sex, sorted); // filtro por sexo e/ou ordenação dos nomes, para o problema, so ocorre em caso de listagem por nome de cada espécime
   }
-  return getFullAnimalMap(); // feito dos filtros: sem parametros, com nomes e/ou sex e/ou ordenados, so restam possíbilidades em que deve-se retornar o mapa completo
+  return getFullAnimalMap(); // feitos os filtros: [sem parametros, com nomes e/ou sex e/ou ordenados], so restam possíbilidades em que deve-se retornar o mapa completo
 }
 
 module.exports = getAnimalMap;
